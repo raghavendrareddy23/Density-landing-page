@@ -1,0 +1,121 @@
+/* CardComponent.module.css */
+.trade{
+    background-color: #000;
+}
+
+.tradeHeader {
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Neurial Grotesk;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: -4.19px;
+}
+
+.future {
+  background: #EBFF25;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: blur(1px);
+}
+
+.tradeInfo {
+  color: var(--neutrals-grey-4, #e7e7ea);
+  text-align: center;
+  font-family: Neurial Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.cardContainer {
+  background-color: #000;
+  display: flex;
+  justify-content: center; /* or other desired spacing */
+  gap: 20px;
+  padding-top: 82px;
+}
+.card {
+  position: relative;
+  width: 250px; /* Adjust width of the card */
+  height: 300px; /* Adjust height of the card */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content at the top */
+  align-items: center; /* Center horizontally */
+  position: relative;
+}
+
+.cardImage {
+  width: 192px;
+  height: 61px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 20px; /* Adjust the distance from the top */
+  left: 50%; /* Position in the middle */
+  transform: translateX(-50%); /* Center the image horizontally */
+}
+
+/* Apply background pattern */
+.card:nth-child(1) .BackgroundPattern_vector {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* Repeat for other cards if necessary */
+.card:nth-child(1),
+.card:nth-child(3) {
+  background: var(--neutrals-grey-9, #19191d);
+}
+.card:nth-child(3) img {
+  filter: brightness(1) invert(1); /* Add desired styling */
+}
+.card:nth-child(2) {
+  background: linear-gradient(
+    180deg,
+    #daf760 -1.86%,
+    rgba(50, 216, 117, 0.96) 146.77%
+  );
+  box-shadow: 0px 0px 40px 0px rgba(226, 255, 111, 0.8);
+}
+.card:nth-child(2) img {
+  filter: brightness(10) invert(1); /* Add desired styling */
+}
+.cardTitle {
+  font-family: Neurial Grotesk;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50.625px; /* 158.203% */
+  letter-spacing: -1.687px;
+  color: var(--White, #fff);
+}
+
+.cardText {
+  color: var(--White, #fff);
+  font-family: Neurial Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.687px;
+  opacity: 0.5;
+}
+
+.card:nth-child(2) .cardTitle {
+  color: #000; /* Black color */
+}
+
+.card:nth-child(2) .cardText {
+  color: #000; /* Black color */
+}

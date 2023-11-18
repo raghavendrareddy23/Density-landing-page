@@ -1,0 +1,171 @@
+.community{
+    backdrop-filter: blur(5px);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 850px; */
+  /* background-color: #f0f0f0; */
+  backdrop-filter: blur(5px);
+}
+
+.box1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../Assets/laptop.jpg");
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 180px;
+  justify-content: space-between;
+  backdrop-filter: blur(15px);
+}
+.tradeHeader {
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Neurial Grotesk;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: -4.19px;
+  backdrop-filter: blur(1px);
+}
+
+.future {
+  background: #ebff25;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: blur(1px);
+  backdrop-filter: blur(1px);
+}
+
+.tradeInfo {
+  color: var(--neutrals-grey-4, #e7e7ea);
+  text-align: center;
+  font-family: Neurial Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  backdrop-filter: blur(1px);
+}
+
+.text-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  color: white;
+}
+
+.button {
+  width: 100px;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #333333;
+  border: none;
+  cursor: pointer;
+  align-self: center;
+}
+
+.tableWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto; /* Adjust height as needed */
+  padding-top: 120px;
+}
+
+.table {
+  display: flex;
+  /* flex-direction: column; */
+  border: 2px solid rgba(255, 255, 255, 0.5); /* Transparent border */
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  filter: drop-shadow(-5px -5px 5px #52ef6933)
+    drop-shadow(5px -5px 5px #52ef6933) drop-shadow(-5px 5px 5px #52ef6933)
+    drop-shadow(5px 5px 5px #52ef6933);
+  /* grid-template-columns: repeat(4, 1fr); */
+  gap: 10px;
+  text-align: center;
+  /* Other styles for the table */
+}
+
+.content {
+  text-align: center;
+  /* Other styles for the content */
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Example background color */
+  padding: 20px;
+  /* Other box styles */
+}
+.frameChild {
+  position: relative;
+  width: 1.5px;
+  height: 172px;
+}
+
+.text1 {
+  color: #ebff25; /* Electric green primary */
+  font-family: "Neurial Grotesk", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px; /* Adjust spacing */
+  /* Other styles for text1 */
+}
+
+.text2 {
+  color: #a9a9a9;
+  font-family: "Neurial Grotesk", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  /* Other styles for text2 */
+}
+
+.exploreMarketsWrapper {
+  /* background: linear-gradient(85.85deg, #d4f938 29.17%, #32d875);
+    box-shadow: 0 0 16px rgba(168, 239, 156, 0.8); */
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* padding: var(--padding-5xl) var(--padding-29xl); */
+  padding-top: 80px;
+  box-sizing: border-box;
+  font-size: var(--mobile-title-3-medium-size);
+  color: var(--color-black);
+}
+
+.tradeButton {
+  display: flex;
+  border-radius: 8px;
+  background: linear-gradient(86deg, #d4f938 23.09%, #32d875 108.69%);
+  box-shadow: 0px 0px 10px 0px rgba(168, 239, 156, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 24px 48px;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-family: Neurial Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  /* Additional styles for the button */
+}

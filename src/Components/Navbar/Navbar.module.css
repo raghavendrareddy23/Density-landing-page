@@ -1,0 +1,61 @@
+/* Navbar.module.css */
+.navbar {
+  /* Your navbar specific styles */
+  background-color: #000000;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-self: stretch;
+  padding: 1rem;
+  /* Other header styles */
+}
+
+.logo {
+  /* Logo styles */
+  width: 99.953px;
+  height: 24px;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  /* Other main-nav styles */
+}
+
+.main-nav li {
+  margin-right: 15px;
+  /* Other li styles */
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #fcfcfc;
+
+  font-family: Neurial Grotesk;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.tradeButton {
+  display: flex;
+  border-radius: 8px;
+  background: linear-gradient(86deg, #d4f938 23.09%, #32d875 108.69%);
+  box-shadow: 0px 0px 16px 0px rgba(168, 239, 156, 0.8);
+  backdrop-filter: blur(5px);
+  height: 48px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* Additional styles for the button */
+}

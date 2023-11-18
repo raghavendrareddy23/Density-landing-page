@@ -1,0 +1,45 @@
+.container {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  justify-content: center;
+  align-items: center;
+  /* Add any additional styling for the container */
+}
+
+.borderBox {
+  border: 2.79px solid #28b6a2;
+  border-radius: 25px;
+  width: 273.569px;
+  height: 560px;
+  flex-shrink: 0;
+  fill: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(-5px -5px 5px #52ef6933)
+    drop-shadow(5px -5px 5px #52ef6933) drop-shadow(-5px 5px 5px #52ef6933)
+    drop-shadow(5px 5px 5px #52ef6933);
+  /* Additional styling */
+}
+
+.image {
+  width: 130.016px;
+  height: 185.997px;
+  flex-shrink: 0;
+  /* Additional styling for the image */
+}
+
+.text {
+  color: #fff;
+  text-align: center;
+  font-family: "Neurial Grotesk", sans-serif;
+  font-size: 33.501px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40.201px; /* 120% */
+  letter-spacing: -0.799px;
+  /* Additional styling for the text */
+}

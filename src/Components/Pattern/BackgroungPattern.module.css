@@ -1,0 +1,17 @@
+/* BackgroundPattern.module.css */
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .vector {
+    /* Adjust the size and appearance of the SVG elements */
+    width: 8px;
+    height: 8px;
+    opacity: 0.3; /* Adjust opacity as needed */
+    /* Additional styles for the SVG */
+  }
+  
