@@ -73,7 +73,7 @@
 .middleImg,
 .rightImg {
   background-color: #000000;
-  filter: drop-shadow(-50px -50px 50px #52ef6933)
+  filter: drop-shadow(-20px -50px 50px #52ef6933)
     drop-shadow(50px -50px 50px #52ef6933)
     drop-shadow(-50px 50px 50px #52ef6933) drop-shadow(50px 50px 50px #52ef6933);
 }

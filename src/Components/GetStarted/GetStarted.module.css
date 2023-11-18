@@ -33,7 +33,7 @@
 .rectangleDiv {
   bottom: 0;
   left: 0;
-  background-color: #43d46b;
+  /* background-color: #43d46b; */
   filter: blur(51.49px);
   width: 875.97px;
   height: 142.63px;
